@@ -1,0 +1,52 @@
+#grey {
+    height: 7vw;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+#smallblue {
+    background-color: rgb(64, 160, 239);
+    height:5vw;
+    width:5vw;
+    margin-left:1vw;
+}
+
+#text {
+    height: 15vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:2vw;
+}
+
+.rectangles {
+    height: 12vw;
+}
+
+#blue {
+    background-color: rgb(64, 160, 239);
+}
+#teal {
+    background-color: rgb(67, 184, 159);
+}
+#green {
+    background-color: rgb(191, 224, 131);
+}
+#yellow {
+    background-color: rgb(234, 230, 113);
+}
+
+footer {
+    font-size: 30px;
+    height: 4vw;
+    width: 4vw;
+    color:white;
+    background-color: black;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:0px;
+    right:0px
+}

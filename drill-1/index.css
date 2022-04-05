@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(63, 63, 63);
+    height: 15vh;
+    width: 100vw;
+    padding: 0;
+    margin-left:0;
+}
+#side_grey {
+    background-color: rgb(201, 201, 201);
+    height:85vh;
+    width: 100vw;
+    z-index: 1;
+}
+#center_white {
+    background-color: white;
+    height: 80vh;
+    width: 70vw;
+    left:15vw;
+    z-index: 2;
+    position:absolute;
+}
+#center_black {
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 70vw;
+    left:15vw;
+    z-index: 3;
+    position:absolute;
+    bottom: 0px;
+}
